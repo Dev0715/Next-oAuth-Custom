@@ -36,7 +36,7 @@ export default function EpicGames(
     token: `${apiBaseUrl}/epic/oauth/v2/token`,
     userinfo: {
       url: `${apiBaseUrl}/epic/id/v2/accounts`,
-      async request({ tokens, provider }) {
+      async request({ tokens, provider }: any) {
         const profile = await fetch(provider.userinfo?.url as URL, {
           headers: {
             Authorization: `Bearer ${tokens.access_token}`,
