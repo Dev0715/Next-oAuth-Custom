@@ -10,8 +10,8 @@ export default {
       clientSecret: process.env.GITHUB_CLIENT_SECRET as string,
     }),
     EpicGames({
-      clientId: process.env.EPICGAMES_CLIENT_ID as string,
-      clientSecret: process.env.EPICGAMES_CLIENT_SECRET as string,
+      clientId: process.env.EPIC_CLIENT_ID as string,
+      clientSecret: process.env.EPIC_CLIENT_SECRET as string,
     }),
   ],
 } satisfies NextAuthConfig;
