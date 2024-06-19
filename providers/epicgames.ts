@@ -70,5 +70,6 @@ export default function EpicGames(
         email: profile.email,
       };
     },
+    options: config,
   };
 }
