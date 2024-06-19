@@ -71,5 +71,5 @@ export default function EpicGames(
       };
     },
     options: config,
-  };
+  } as OAuthConfig<EpicGamesProfile>;
 }
