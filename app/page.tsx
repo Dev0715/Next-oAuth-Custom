@@ -17,7 +17,7 @@ export default function Home() {
 
   return (
     <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div>
+      <div className="flex flex-col gap-y-4">
         <button
           className="p-4 bg-blue-500 text-white rounded-lg"
           onClick={onGithubAuth}
